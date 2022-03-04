@@ -5,3 +5,8 @@ tmux source-file ~/.tmux.conf
 
 # Vim Configuration
 ln -sf ~/dotfiles/tools/.vimrc ~/.vimrc
+
+# Ranger Installation and Configuration
+sudo apt-get install ranger
+
+ln -sf ~/dotfiles/system/.bash_aliases ~/.bash_aliases
